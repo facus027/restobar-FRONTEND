@@ -1,9 +1,9 @@
 
 export default function NosotrosSection() {
     return (
-        <section className="my-16 md:my-28">
+        <section className="my-16 md:my-10">
             {/* 50/50 y alto de pantalla */}
-            <div className="grid h-[calc(100svh-5rem)] grid-cols-1 md:grid-cols-2">
+            <div className="grid h-[calc(95svh-1rem)] grid-cols-1 md:grid-cols-2">
                 {/* MITAD IMAGEN: llena toda su columna */}
                 <div className="relative">
                     <img
@@ -16,11 +16,11 @@ export default function NosotrosSection() {
                 {/* MITAD TEXTO: centrado perfecto */}
                 <div className="flex items-center justify-center bg-black/70 p-6">
                     <div className="max-w-prose text-white">
-                        <h2 className="text-center font-poppins text-4xl font-bold uppercase leading-none">
+                        <h2 className="text-center font-poppins text-2xl md:text-4xl font-bold uppercase leading-none">
                             UN POCO DE NOSOTROS
                         </h2>
 
-                        <div className="mt-6 flex flex-col gap-3 text-base font-sans font-bold text-justify">
+                        <div className="mt-6 flex flex-col gap-3 text-sm md:text-base font-sans font-bold text-justify">
                             <p>
                                 ¡Bienvenidos a XOXO Club, donde la diversión y el amor se fusionan para crear momentos mágicos!
                             </p>

@@ -4,7 +4,7 @@ export default function ReservaSeccion() {
 
 
     return (
-        <section className="mx-auto max-w-7xl px-6 py-16 text-white">
+        <section className="mx-auto max-w-7xl px-6 text-white scroll-mt-[var(--header-h)] min-h-[calc(100svh-var(--header-h))] py-10 md:py-16">
             <div className="gap-10 ">
                 {/* Columna izquierda: card informativa */}
                 <div className="rounded-xl bg-[#3a006d] p-8 shadow-xl">

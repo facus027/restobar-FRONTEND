@@ -6,7 +6,7 @@ import FooterHome from "../components/FooterHome";
 
 export default function HomeLayout() {
     return (
-        <>
+        <div className="pt-[var(--header-h)]">
             <div className=' min-w-full flex flex-col lg:flex-row '>
                 <HeaderHome />
             </div>
@@ -34,6 +34,6 @@ export default function HomeLayout() {
                     whatsappMessage="Hola! Quiero reservar en XOXO."
                 />
             </div>
-        </>
+        </div>
     )
 }
