@@ -9,7 +9,7 @@ export default {
       colors: {
         violet:"#3B225E",
          fuchsia: "#FF00FF",       // Rosa intenso
-          magenta: "#FF0090",       // Rosa brillante
+          magenta: "#3a006d",       // Rosa brillante
           lightPink: "#FFC0CB",     // Rosa claro
           cherryRed: "#DE3163",     // Rojo cereza
           dark: "#1E1E1E",          // Fondo oscuro posible

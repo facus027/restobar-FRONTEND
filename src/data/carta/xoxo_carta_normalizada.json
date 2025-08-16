@@ -1,0 +1,513 @@
+{
+  "categories": [
+    {
+      "name": "Refrescos",
+      "subcategories": [
+        {
+          "name": "General",
+          "items": [
+            {
+              "name": "COCA COLA",
+              "description": "355 ml",
+              "price": "$50"
+            }
+          ]
+        },
+        {
+          "name": "Coca Cola",
+          "items": [
+            {
+              "name": "COCA COLA LIGHT",
+              "description": "355 ml",
+              "price": "$50"
+            }
+          ]
+        },
+        {
+          "name": "Coca Cola Light",
+          "items": [
+            {
+              "name": "SPRITE",
+              "description": "355 ml",
+              "price": "$50"
+            }
+          ]
+        },
+        {
+          "name": "Sprite",
+          "items": [
+            {
+              "name": "MANZANITA",
+              "description": "355 ml",
+              "price": "$50"
+            }
+          ]
+        },
+        {
+          "name": "Manzanita",
+          "items": [
+            {
+              "name": "FRESCA",
+              "description": "355 ml",
+              "price": "$50"
+            }
+          ]
+        },
+        {
+          "name": "Fresca",
+          "items": [
+            {
+              "name": "AGUA MINERAL (soda water)",
+              "description": "355 ml",
+              "price": "$50"
+            },
+            {
+              "name": "AGUA MINERAL (natural water)",
+              "description": "600 ml",
+              "price": "$55"
+            },
+            {
+              "name": "AGUA TONICA",
+              "description": "355 ml",
+              "price": "$60"
+            }
+          ]
+        },
+        {
+          "name": "Agua Tonica",
+          "items": [
+            {
+              "name": "NARANJADA (soda)",
+              "description": "300 ml",
+              "price": "$50"
+            },
+            {
+              "name": "LIMONADA (soda)",
+              "description": "300 ml",
+              "price": "$50"
+            },
+            {
+              "name": "TOPO CHICO",
+              "description": "355 ml",
+              "price": "$70"
+            }
+          ]
+        },
+        {
+          "name": "Topo Chico",
+          "items": [
+            {
+              "name": "PERRIER",
+              "description": "330 ml",
+              "price": "$85"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cócteles",
+      "subcategories": [
+        {
+          "name": "General",
+          "items": [
+            {
+              "name": "Daiquiri XOXO",
+              "description": "Apletton 8, cordial de cerveza y perfume de especias.",
+              "price": "$190"
+            },
+            {
+              "name": "Fashioned",
+              "description": "Gin Condesa Azul, St. Germain, limoncello homemade, angostura y corteza de naranja.",
+              "price": "$190"
+            },
+            {
+              "name": "Paper Plane",
+              "description": "Brandy, amaro, aperol y jugo de limón eureka.",
+              "price": "$190"
+            },
+            {
+              "name": "Drag Lady",
+              "description": "Gin Condesa, bourbon, aquafaba y jugo de limón.",
+              "price": "$190"
+            },
+            {
+              "name": "Mojito Xoxo",
+              "description": "Flor de Caña 12, Boubon y Amaretto.",
+              "price": "$190"
+            },
+            {
+              "name": "Sex on the City",
+              "description": "Absolut smoky piña, Cassis, mango y jugo de naranja.",
+              "price": "$200"
+            },
+            {
+              "name": "Highball Founders",
+              "description": "Cordial de melón, licor de flor de sauco, whisky, soda.",
+              "price": "$200"
+            }
+          ]
+        },
+        {
+          "name": "Clásicos Campari",
+          "items": [
+            {
+              "name": "Aperol Spritz",
+              "price": "$170"
+            },
+            {
+              "name": "Negroni de la casa",
+              "price": "$170"
+            },
+            {
+              "name": "Cynar Spritz",
+              "price": "$170"
+            },
+            {
+              "name": "Besos de Glitter",
+              "description": "Vodka, Glitter de colores y mucho amor.",
+              "price": "$70"
+            },
+            {
+              "name": "Tamara",
+              "description": "Tamarindo, mezcal, licor de naranja y limón.",
+              "price": "$70"
+            },
+            {
+              "name": "Benito",
+              "description": "kiwi, tequila, licor naranja y limón.",
+              "price": "$70"
+            },
+            {
+              "name": "55 Grados",
+              "description": "Pepino, licor de naranja, sotol y limón.",
+              "price": "$70"
+            },
+            {
+              "name": "Maximiliana",
+              "description": "Maracuya, Raicilla, licor de naranja y limón.",
+              "price": "$70"
+            },
+            {
+              "name": "Chuchita",
+              "description": "Ron Coco, sandia y glitter de colores.",
+              "price": "$70"
+            },
+            {
+              "name": "Sugar Daddy",
+              "description": "Jagermaister y Almendra.",
+              "price": "$70"
+            },
+            {
+              "name": "Cantarito",
+              "description": "Tequila, cítricos, mezcla de chiles, imperdible",
+              "price": "$140"
+            },
+            {
+              "name": "Sauco Magic",
+              "description": "Licor St Germain, pepino verde, ginger ale.",
+              "price": "$140"
+            },
+            {
+              "name": "Martini de Rosas",
+              "description": "Vodka & Gin, aquafaba, arándano y limón.",
+              "price": "$140"
+            },
+            {
+              "name": "Mezcalita (sabor pepino, jamaica, tamarindo)",
+              "description": "Mezcal, licor de naranja, sabor a elegir. Opción frozen o en las rocas.",
+              "price": "$140"
+            },
+            {
+              "name": "Gin Pink",
+              "description": "Ginebra, pitahaya, agua quina.",
+              "price": "$140"
+            },
+            {
+              "name": "Carajillo 13 Martini",
+              "description": "Licor 43, Chivas 13, tequila y cold Brew.",
+              "price": "$200"
+            }
+          ]
+        },
+        {
+          "name": "Mixologia Sustentable de Xoxo",
+          "items": [
+            {
+              "name": "Extracto 47",
+              "description": "Absolut Extrakt, sloe gin, aperol, cordial de Sandía & Menta",
+              "price": "$190"
+            },
+            {
+              "name": "Eva",
+              "description": "Cocktail desnudo de Tequila, jerez Tío Pepe y licor de manzana verde.",
+              "price": "$190"
+            },
+            {
+              "name": "Kiixy",
+              "description": "Gin Condesa Azul, Ron Havana y Aperol, cordial de manzana & piña con burbuja de cítricos.",
+              "price": "$190"
+            },
+            {
+              "name": "Golden Sour",
+              "description": "Raicilla, yumbab, jarabe de agave, aquafaba y carbón activado.",
+              "price": "$190"
+            },
+            {
+              "name": "After Work",
+              "description": "Glenlivet Founders, Licor ligero de platano, Espuma de cerveza y flor orgánica.",
+              "price": "$190"
+            },
+            {
+              "name": "Skar King",
+              "description": "Fatwash de platano macho, Howlerhead, jarabe de especias y cold brew de cerveza oscura",
+              "price": "$190"
+            },
+            {
+              "name": "Carajillo Rock Star",
+              "description": "Gin condesa azul, Orgeat con cacao, toque de limón, Cold brew.",
+              "price": "$190"
+            },
+            {
+              "name": "Sherish",
+              "description": "Torres 15, orgeat de cacao, jerez, piña y galleta de cacao con hummus",
+              "price": "$190"
+            },
+            {
+              "name": "Santa Rosa",
+              "description": "Martel VSOP, Licor 43, Jarabe de Ciruela, Menta, Top de Soda.",
+              "price": "$190"
+            },
+            {
+              "name": "Yoruba",
+              "description": "Havana 7, bourbon, falernum, mango, zanahoria con especias y angostura.",
+              "price": "$220"
+            },
+            {
+              "name": "Nayah",
+              "description": "Absolut Extrakt, Cinzano blanco, producto cítrico y espuma blue.",
+              "price": "$190"
+            },
+            {
+              "name": "743 - La Gota Perfecta",
+              "description": "Jack Daniels, licor 43, jarabe de zanahoria y peychauds.",
+              "price": "$190"
+            },
+            {
+              "name": "Ëter",
+              "description": "Cóctel clarificado, Havana 7, jarabe de guanábana con albahaca, jerez y jugo de limón.",
+              "price": "$200"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cervezas",
+      "subcategories": [
+        {
+          "name": "Red Bull",
+          "items": [
+            {
+              "name": "CORONA",
+              "description": "355 ml",
+              "price": "$70"
+            }
+          ]
+        },
+        {
+          "name": "Corona",
+          "items": [
+            {
+              "name": "MODELO ESPECIAL",
+              "description": "355 ml",
+              "price": "$70"
+            }
+          ]
+        },
+        {
+          "name": "Modelo Especial",
+          "items": [
+            {
+              "name": "INDIO",
+              "description": "355 ml",
+              "price": "$60"
+            }
+          ]
+        },
+        {
+          "name": "Indio",
+          "items": [
+            {
+              "name": "TECATE LIGTH",
+              "description": "355 ml",
+              "price": "$60"
+            }
+          ]
+        },
+        {
+          "name": "Tecate Ligth",
+          "items": [
+            {
+              "name": "NEGRA MODELO",
+              "description": "355 ml",
+              "price": "$70"
+            }
+          ]
+        },
+        {
+          "name": "Negra Modelo",
+          "items": [
+            {
+              "name": "XX LAGER",
+              "description": "355 ml",
+              "price": "$65"
+            }
+          ]
+        },
+        {
+          "name": "Xx Lager",
+          "items": [
+            {
+              "name": "XX AMBAR",
+              "description": "355 ml",
+              "price": "$65"
+            }
+          ]
+        },
+        {
+          "name": "Xx Ambar",
+          "items": [
+            {
+              "name": "BOHEMIA CLARA",
+              "description": "355 ml",
+              "price": "$70"
+            }
+          ]
+        },
+        {
+          "name": "Bohemia Clara",
+          "items": [
+            {
+              "name": "BOHEMIA OSCURA",
+              "description": "355 ml",
+              "price": "$70"
+            }
+          ]
+        },
+        {
+          "name": "Bohemia Oscura",
+          "items": [
+            {
+              "name": "AMSTEL ULTRA",
+              "description": "355 ml",
+              "price": "$70"
+            }
+          ]
+        },
+        {
+          "name": "Amstel Ultra",
+          "items": [
+            {
+              "name": "HEINEKEN",
+              "description": "355 ml",
+              "price": "$70"
+            }
+          ]
+        },
+        {
+          "name": "Heineken",
+          "items": [
+            {
+              "name": "VICTORIA",
+              "description": "355 ml",
+              "price": "$70"
+            }
+          ]
+        },
+        {
+          "name": "Victoria",
+          "items": [
+            {
+              "name": "PACÍFICO",
+              "description": "355 ml",
+              "price": "$70"
+            }
+          ]
+        },
+        {
+          "name": "Pacífico",
+          "items": [
+            {
+              "name": "CHELADAS",
+              "price": "$20"
+            }
+          ]
+        },
+        {
+          "name": "Cheladas",
+          "items": [
+            {
+              "name": "MICHELADAS",
+              "price": "$20"
+            }
+          ]
+        },
+        {
+          "name": "Micheladas",
+          "items": [
+            {
+              "name": "OJO ROJO",
+              "price": "$50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Vinos",
+      "subcategories": [
+        {
+          "name": "Red Bull",
+          "items": [
+            {
+              "name": "Moet Chandon Brut",
+              "price": "$5.200",
+              "label": "Botella"
+            },
+            {
+              "name": "Moet Chandon Ice",
+              "price": "$5.700",
+              "label": "Botella"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bebidas energéticas",
+      "subcategories": [
+        {
+          "name": "General",
+          "items": [
+            {
+              "name": "BOOST",
+              "description": "235 ml",
+              "price": "$95"
+            }
+          ]
+        },
+        {
+          "name": "Boost",
+          "items": [
+            {
+              "name": "RED BULL",
+              "description": "250 ml",
+              "price": "$115"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

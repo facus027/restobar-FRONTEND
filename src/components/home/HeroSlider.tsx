@@ -1,11 +1,13 @@
 import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import { Link as LinkScroll } from "react-scroll";
 
 type Slide = {
     bg: string;
     title: string;
     description: string;
     cta: string;
+    to: string
 };
 
 const slides: Slide[] = [
@@ -13,19 +15,22 @@ const slides: Slide[] = [
         bg: "url('/sliders/slider-eventos-1.png')",
         title: "Bienvenida al Universo XOXO",
         description: "Descubrí eventos únicos, vibrantes y llenos de amor propio.",
-        cta: "Explorar eventos"
+        cta: "Explorar eventos",
+        to: "eventos"
     },
     {
         bg: "url('/sliders/slider-menu-2.png')",
         title: "Nuevo Menú",
         description: "Conectá con tu estilo con colores que expresan tu esencia.",
-        cta: "Ver ahora"
+        cta: "Ver ahora",
+        to: ""
     },
     {
         bg: "url('/sliders/slider-nosotros-3.png')",
         title: "Amor Propio Primero",
         description: "Cuidate. Querete. Regalate algo especial hoy.",
-        cta: "Descubrí más"
+        cta: "Descubrí más",
+        to: "nosotros"
     }
 ];
 
@@ -76,7 +81,8 @@ export default function HeroSlider() {
                             animate={{ scale: 1, opacity: 1 }}
                             transition={{ duration: 0.5, delay: 0.2 }}
                         >
-                            {currentSlide.cta}
+                            <LinkScroll to="eventos" smooth={true} duration={600} offset={0} className="">{currentSlide.cta}</LinkScroll>
+
                         </motion.button>
                     </div>
                 </motion.div>
